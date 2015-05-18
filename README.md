@@ -9,6 +9,7 @@ This is trivial powershell module to install WSUS(Windows Server Update Services
 ```
   Import-Module Install-WSUS
   Install-WSUS <PUT-COMPUTERNAME-TO-INSTALL>
+  Install-WSUS <PUT-COMPUTERNAME-TO-INSTALL> -ContentPath <PATH-TO-CONTENT-FOLDER>
 ```
 1. Connect the server with wsus management tool and download all updates you need.
 1. Relax

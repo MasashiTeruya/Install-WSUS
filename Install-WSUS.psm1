@@ -7,6 +7,7 @@
    TODO: What we need is details.
 .EXAMPLE
    Install-WSUS MyHost
+   Install-WSUS MyHost -ContentPath D:\WSUS
 #>
 
 function Install-WSUS
